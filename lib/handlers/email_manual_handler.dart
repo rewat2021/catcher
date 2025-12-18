@@ -2,7 +2,7 @@ import 'package:catcher/handlers/base_email_handler.dart';
 import 'package:catcher/model/platform_type.dart';
 import 'package:catcher/model/report.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mailer/flutter_mailer.dart';
+#import 'package:flutter_mailer/flutter_mailer.dart';
 
 class EmailManualHandler extends BaseEmailHandler {
   final List<String> recipients;
